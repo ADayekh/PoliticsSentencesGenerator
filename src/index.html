@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Spanish Politicians</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -14,15 +18,37 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-dark bg-primary p-3">
+            <a class="navbar-brand" href="#"
+              >Politician smiles <i class="fa-regular fa-face-smile"></i
+            ></a>
+          </nav>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-12">
+          <div class="alert alert-primary" role="alert">
+            ¡Bienvenido/a al generador de frases graciosas de presidentes
+            españoles!
+          </div>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card mb-3">
+            <img class="card-img-top img-fluid"  style="width:1000px; height: 700px; border: 1px;" id="imagen">
+            <div class="card-body">
+              <h3 class="card-title">Frases graciosas de políticos</h3>
+              <h5 class="card-text" id="texto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+            </div>
+        </div>
+      </div>
+      <div class="row bg-primary text-white p-3">
+        <div class="text-center p-3">
+          © 2024 Copyright : AlejandroDayekh.com
+        </div>
       </div>
     </div>
   </body>
